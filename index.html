@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Hawaii Tournament Workout</title>
+    
+  </head>
+  <body data-spy="scroll" data-target=".spy" data-offset="102.52">
+    <nav id="header" class="header navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse spy" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Torneo <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#judges">Jueces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#place-time">Lugar y Fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#turn-into-participant">Sé un participante</a>
+            </li>
+            <li class="nav-item">
+              <a class="buyTickets" href="#" data-toggle="modal" data-target="#modalTicket">Compra de tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div >
+    </nav>
+    <!-- HEADER---------------------------------------------------------------- -->
+
+    <!-- MAIN---------------------------------------------------------------- -->
+    <main id="main">
+      <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./static/images/larosaMain.jpg" alt="Andrea Larosa">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./static/images/hawaii2.jpg" alt="Hawaii">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./static/images/hawaii3.jpeg" alt="Hawaii">
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 text-center col-lg-6 offset-lg-6 text-lg-right ">
+                <h1>International Street Workout Tournament Hawaii</h1>
+                <p class="d-none d-md-block">Este será el primer evento internacional de Street Workout,
+                  llevado acabo en Hawaii
+                  donde participaran los mejores atletas y estarán siendo juzgados por atletas de alto nivel
+                  como: <br> <span>Andrea Larosa, Eryc Ortiz y Vadym Oleynik</span> 
+                </p>
+                <a href="#" class="btn btn-outline-light" >Quiero participar</a>
+                <button class="btn greenBtn"type="button" data-toggle="modal" data-target="#modalTicket">Comprar tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <!-- MAIN---------------------------------------------------------------- -->
+
+
+    <!-- Judges---------------------------------------------------------------- -->
+    <section id="judges" class="mt-4 mb-4"></section>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Conoce a los</small>
+            <h2>Jueces</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top"  src="./static/images/eryc.jpg" alt="Eryc Ortiz">
+              <div class="card-body">
+                <div class="badges text-center text-md-right ">
+                  <span class="badge badge-pill badge-warning">+8 Years Training</span>
+                  <span class="badge badge-pill badge-info">Colombia</span>
+                </div>
+                <h5 class="card-title">Eryc Ortiz</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iste tempore accusantium voluptate non nihil, quidem delectus nemo dolor laudantium.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top"  src="./static/images/larosa.jpg" alt="Andrea Larosa">
+              <div class="card-body">
+                <div class="badges text-center text-md-right ">
+                  <span class="badge badge-pill badge-warning">+10 Years Training</span>
+                  <span class="badge badge-pill badge-primary">Italy</span>
+                </div>
+                <h5 class="card-title">Andrea Larosa</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iste tempore accusantium voluptate non nihil, quidem delectus nemo dolor laudantium.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top"  src="./static/images/vadym.jpg" alt="Vadym Oleynik">
+              <div class="card-body">
+                <div class="badges text-center text-md-right ">
+                  <span class="badge badge-pill badge-warning">+10 Years Training</span>
+                  <span class="badge badge-pill badge-danger">Ukraine</span>
+                </div>
+                <h5 class="card-title">Vadym Oleynik</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iste tempore accusantium voluptate non nihil, quidem delectus nemo dolor laudantium.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Judges---------------------------------------------------------------- -->
+
+    <!-- PLACE-TIME---------------------------------------------------------------- -->
+    <section id="place-time" class="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="./static/images/honolulu.jpg" class="w-100" alt="Honolulu">
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>Honolulu - Octubre 2020</h2>
+            <p>Honolulu, en la costa sur de la isla de Oahu, es la capital de Hawái y la vía de acceso a la cadena de islas de EE.UU. El barrio de Waikiki es un centro de restaurantes, vida nocturna y comercio, famoso por su icónica playa con forma de medialuna bordeada de palmeras y hoteles de muchos pisos y con el cráter volcánico Diamond Head en lo alto a la distancia. Los sitios relacionados con el ataque a Pearl Harbor en la Segunda Guerra Mundial incluyen el USS Arizona Memorial.</p>
+            <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PLACE-TIME---------------------------------------------------------------- -->
+
+    <!-- TURN INTO PARTICIPANT---------------------------------------------------------------- -->
+    <section id="turn-into-participant" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Conviertete en un</small>
+            <h2>participante</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>Anótate para que demuestres tus habilidades en una practica <abbr data-toggle="tooltip" title="5 minutos">ignite.</abbr> Demuestra de lo que eres capaz!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="Cuentanos sobre tu experiencia..."></textarea>
+                  <small class="form-text text-muted">
+                    Recuerda incluir un titulo sobre tu experiencia
+                  </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <button type="button" class="btn greenBtn btn-block">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TURN INTO PARTICIPANT---------------------------------------------------------------- -->
+
+    <!-- FOOTER---------------------------------------------------------------- -->
+    <footer id="footer" class="footer pb-4 pt-4" >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="#"> Preguntas frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#"> Contactanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Terminos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Privacidad</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Comunidad</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER---------------------------------------------------------------- -->
+
+    <!-- MODAL----------------------------------------------------------------- -->
+    <div class="modal fade" id="modalTicket" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTicket">Comprar tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Animate a participar y tener la oportunidad de ganar $10,000 USD.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn greenBtn">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL----------------------------------------------------------------- -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
